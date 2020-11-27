@@ -1,8 +1,8 @@
-###### CENG140, THE1 TESTER
+# CENG140, THE1 TESTER
 
 This Python 3 tester code controls both first and second part of THE1 of CENG140 course.
 
-Usage
+## Usage
 
 Put the docs tester.py and in and out folders at the same directions with your .c files.
 Then run "python tester.py" command on the terminal.
