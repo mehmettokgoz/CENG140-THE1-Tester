@@ -9,7 +9,7 @@ class bcolors:
     ENDC = '\033[0m'
     RED = '\033[0;31m'
 
-# Function for control outputs if they are equal
+# Function to check if the outputs are equal
 def controlOutput(out, real_out):
     if out == real_out:
         return 1
