@@ -27,7 +27,7 @@ print("\nCENG140 - THE #1 Tester\n")
 print("Running part 1\n ")
 
 compile_1 = os.popen(compile_part1)
-time.sleep(0.5)
+time.sleep(1)
 
 for case in range(1, CASE_NUMBER + 1):
 
@@ -62,7 +62,7 @@ print("\n Running part 2:\n")
 
 compile_2 = os.popen(compile_part2)
 
-time.sleep(0.5)
+time.sleep(1)
 
 for case in range(1, CASE_NUMBER + 1):
 
