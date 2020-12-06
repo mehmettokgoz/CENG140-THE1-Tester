@@ -17,7 +17,7 @@ def controlOutput(out, real_out):
         return 0
 
 # Part 1 variable declarations
-CASE_NUMBER = 10
+CASE_NUMBER = 12
 total_wrong = 0
 compile_part1 = "gcc the1_part1.c main_part1.c -ansi -pedantic-errors -Wall -lm -o the1_part1"
 
@@ -53,7 +53,7 @@ print(bcolors.WARNING + "\n In part 2, your code failed at " + str(total_wrong) 
     CASE_NUMBER-total_wrong) + " case. "+ bcolors.ENDC)
 
 # Part 2 variable declarations
-CASE_NUMBER = 10
+CASE_NUMBER = 12
 total_wrong = 0
 compile_part2 = "gcc the1_part2.c main_part2.c -ansi -pedantic-errors -Wall -lm -o the1_part2"
 
